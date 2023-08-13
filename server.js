@@ -6,7 +6,7 @@ const app = express()
 //routes
 app.get('/', (req, res) => {res.send("Hello Duniya")})
 
-app.get('/blog', (req, res) => {res.send("Hello Duniya, My name is Adwait")})
+app.get('/blog', (req, res) => {res.send("Hello Duniya, My name is Adwait.")})
 
 
 
